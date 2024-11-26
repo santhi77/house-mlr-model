@@ -20,7 +20,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
 # Load the saved model
-model = pickle.load(open(r"D:\Users\SANTHI\Desktop\streamlit\MLR-Apps\house_price_model.pkl", "rb"))
+model = pickle.load(open("house_price_model.pkl", "rb"))
 
 st.sidebar.title("Details of this project.")
 st.sidebar.markdown("This app is used for predicting the house prices by using Multiple Linear Regression.")
