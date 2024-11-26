@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 # Load the dataset
-data = pd.read_csv(r"H:\sir daily notes tasks-nov\18th- mlr\MLR\House_data.csv")  # Replace with your local path to the dataset
+data = pd.read_csv("House_data.csv")  # Replace with your local path to the dataset
 
 # Independent and dependent variables
 X = data[['bedrooms', 'bathrooms', 'sqft_living', 'floors', 'sqft_lot']]
