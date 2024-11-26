@@ -34,9 +34,9 @@ st.write("This app predicts house prices based on the number of bedrooms, bathro
 
 # Input fields for independent variables
 bedrooms = st.number_input("Number of Bedrooms", min_value=0, step=1, value=3)
-bathrooms = st.number_input("Number of Bathrooms", min_value=0.0, step=0.25, value=2.0)
+bathrooms = st.number_input("Number of Bathrooms", min_value=0.0, step=1, value=2.0)
 sqft_living = st.number_input("Square Footage of Living Space", min_value=0, step=50, value=2000)
-floors = st.number_input("Number of Floors", min_value=0.0, step=0.5, value=1.0)
+floors = st.number_input("Number of Floors", min_value=0.0, step=1, value=1.0)
 sqft_lot = st.number_input("Square Footage of Lot", min_value=0, step=50, value=5000)
 
 # Predict button
